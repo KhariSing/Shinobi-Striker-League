@@ -1,0 +1,129 @@
+<html>
+ <style>
+    * {
+      box-sizing: border-box;
+    }
+    .menu {
+      float:left;
+      width:20%;
+      text-align:center;
+    }
+    .menu a {
+      background-color:414141;
+      padding:8px;
+      margin-top:7px;
+      display:block;
+      width:100%;
+      color:black;
+    }
+    .main {
+      float:left;
+      width:60%;
+      padding:0 20px;
+    }
+    .right {
+      background-color:212121;
+      float:left;
+      width:20%;
+      padding:15px;
+      margin-top:7px;
+      text-align:center;
+      color: black;
+    }
+
+    @media only screen and (max-width:620px) {
+      /* For mobile phones: */
+      .menu, .main, .right {
+        width:100%;
+      }
+    }
+
+div.scrollmenu {
+    background-color: #212121;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: f39800;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #212121;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #212121;
+}
+  </style>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shinobi Striker League</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+ 
+  <body style="background-color: 212121;>
+      <table style="width:100%">
+            <tr>
+                <div style="background-color: 414141;padding:15px;text-align:left; color: black;">
+                 <img src="C:\Users\kingd\Desktop\NTBSSL.png" width="300" align="center">
+                </div>
+            </tr>
+     </table>
+
+        <table >
+  <tr>
+    <td colspan="2">    <div style="overflow:auto">
+      <div class="scrollmenu" align="center">
+        <a href="Home.html"><b>Home</b></a>
+        <a href="About.html"><b>About</b></a>
+        <a href="League.html"><b>League</b></a>
+        <a href="Villages.html"><b>Villages</b></a>
+        <a href="League.html"><b>League</b></a>
+      </div></td>
+  </tr>
+   <tr>
+    <td colspan="2"></td>
+  </tr>
+
+  <tr>
+    <td>      
+     <div class="main">
+        <h2 style="color:black;">Hightlight</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/tg85ktf089w" frameborder="1" allow="autoplay; encrypted-media" allowfullscreen>
+        </iframe>
+        <p>Watch last match by *(Player1)*</p>
+        <h2 style="color:black;">Hightlight2</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uYok0fqKnb8" frameborder="1" allow="autoplay; encrypted-media" allowfullscreen>
+        </iframe>
+        <p>Watch last match by *(Player2)*</p>
+        
+     </div>
+    </td>
+    <td>      
+       <div class="right">
+        <img src="C:\Users\kingd\Desktop\scores.png" width="500px" height="700px" align="center">
+      </div>
+    </div></td>
+  </tr>
+</table>
+
+    <div style="background-color:f39800;text-align:center;padding:10px;margin-top:7px; color: black">© copyright Shinobi Striker League</div>
+  </body>
+</html>
